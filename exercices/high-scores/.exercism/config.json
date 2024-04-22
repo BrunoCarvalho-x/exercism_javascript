@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "PakkuDon"
+  ],
+  "contributors": [
+    "ankorGH",
+    "cmccandless",
+    "ffflorian",
+    "hayashi-ay",
+    "SleeplessByte"
+  ],
+  "files": {
+    "solution": [
+      "high-scores.js"
+    ],
+    "test": [
+      "high-scores.spec.js"
+    ],
+    "example": [
+      ".meta/proof.ci.js"
+    ]
+  },
+  "blurb": "Manage a player's High Score list.",
+  "source": "Tribute to the eighties' arcade game Frogger",
+  "custom": {
+    "version.tests.compatibility": "jest-27",
+    "flag.tests.task-per-describe": false,
+    "flag.tests.may-run-long": false,
+    "flag.tests.includes-optional": false
+  }
+}
