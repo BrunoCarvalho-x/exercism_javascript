@@ -1,26 +1,27 @@
 {
   "authors": [
-    "RobinCsl"
+    "MattH-be"
   ],
   "contributors": [
     "ankorGH",
     "SleeplessByte",
     "tejasbubane",
-    "WebCu"
+    "xarxziux"
   ],
   "files": {
     "solution": [
-      "protein-translation.js"
+      "rotational-cipher.js"
     ],
     "test": [
-      "protein-translation.spec.js"
+      "rotational-cipher.spec.js"
     ],
     "example": [
       ".meta/proof.ci.js"
     ]
   },
-  "blurb": "Translate RNA sequences into proteins.",
-  "source": "Tyler Long",
+  "blurb": "Create an implementation of the rotational cipher, also sometimes called the Caesar cipher.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Caesar_cipher",
   "custom": {
     "version.tests.compatibility": "jest-27",
     "flag.tests.task-per-describe": false,
